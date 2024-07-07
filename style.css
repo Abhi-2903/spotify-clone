@@ -37,18 +37,19 @@ a{
     flex-direction: column;
     height: 112px;
     justify-content: space-evenly;
-    padding: 0.5rem 0.75rem;
+    padding: 0rem 1.5rem;
     border-radius: 10px
 }
 .navoption{
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     opacity: 0.7;
     display: flex;
     align-items: center;
+
 }
 
 .navoption i{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .navoption a{
     font-size: 1rem;
@@ -61,10 +62,11 @@ a{
 .library{
     background-color: #121212;
     border-radius: 10px;
-    height: 59%;
+    height: 63%;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    padding: 0.5rem 0.75rem;
+    padding: 0.3rem 0.3rem;
+    scrollbar-color: grey;
     overflow: clip;
 
 }
@@ -81,7 +83,7 @@ a{
     display: flex;
     flex-direction: column;
 }
-button{
+.options button{
     border: 0px;
     background-color: transparent;
     cursor: pointer;
@@ -106,4 +108,33 @@ button p{
 }
 .libnav button:hover{
     opacity: 1;
+}
+.badge{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 13px;
+    padding: 8px 16px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.box{
+    background-color: #232323;
+   margin: 1.5rem 0rem 0.5rem 0px;
+   
+    border-radius: 1rem;
+    padding: 18px 20px;
+
+}
+.box-p1{
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-top: 0.2rem;
+}
+.box-p2{
+    font-size: 0.81rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
 }
